@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    
+<meta property="og:image" content="pic.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Ahmed Abdellah - Software Engineer & Developer" />
+<meta property="og:description" content="Ahmed Abdellah is a creative developer and designer passionate about innovation." />
+<meta property="og:url" content="index.html" />
+<meta name="google-site-verification" content="u1HyMeQ1aSQBDozXAVKby4nlfLi_VxvOwwHfao0QCMs" />
+    <title>Ahmed Abdellah</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon-32x32.png?v=3" type="image/x-icon">
+    <link rel="icon" href="./favicon-32x32.png?v=3" type="image/x-icon">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="manifest" href="site.html">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <!-- Plyr CSS -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+
+    <!-- Plyr JS -->
+    <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+                
+</head>
+<body data-barba="wrapper">
+  <div class="load-container" style="overflow: hidden;">
+ 
+    <div class="loading-screen">  <img src="./logo_00000.png" alt=""></div>
+</div>
+
+
+<div class="contact-intro">
+  <div class="contactText"><span></span> </div>
+  <div class="solid"></div>
+</div>
+
+
+<div class="menu-toggle" id="menu-toggle">
+  <span></span>
+  <span></span>
+</div>
+<div class="overlay" id="overlay">
+  <p>Navigation bar</p>
+  <div class="line bottom-line"></div>
+
+  <div class="overlay-content">
+    
+    <div class="fade-item nav-link"><a href="index.html">Home</a></div>
+    <div class="fade-item nav-link active"><a href="contact.html">Our services</a></div>
+  </div>
+  <div class="line bottom-line"></div>
+
+</div>
+    
+    <div id="butter" >
+
+      <main data-barba="container" data-barba-namespace="contact">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container-fluid">
+                <!-- لوغو على اليسار -->
+                <a class="navbar-brand icn" href="about.html">
+                </a>
+    
+                <!-- لوغو على اليمين -->
+                <a class="navbar-brand ml-auto icn" href="#">
+                </a>
+            </div>
+        </nav>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator" style="position: relative; margin: 0 auto; text-align: center; opacity: 0; animation: fadeIn 1s ease-out forwards 1s; margin: 40px auto 60px;">
+            <div class="mouse" style="width: 40px; height: 70px; border: 3px solid #ffffff; border-radius: 20px; position: relative; margin: 0 auto 15px;">
+                <div class="wheel" style="width: 5px; height: 10px; background: #ffffff; border-radius: 3px; position: absolute; left: 50%; top: 12px; margin-left: -2.5px; animation: scroll 2s infinite;"></div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center; margin-top: 15px;">
+                <i class="fas fa-chevron-down" style="color: #ffffff; font-size: 24px; margin: 5px 0; animation: bounce 2s infinite;"></i>
+                <i class="fas fa-chevron-down" style="color: #ffffff; font-size: 24px; margin: 5px 0; animation: bounce 2s infinite 0.2s;"></i>
+            </div>
+        </div>
+
+        <style>
+            @keyframes scroll {
+                0% { transform: translateY(0); opacity: 1; }
+                100% { transform: translateY(15px); opacity: 0; }
+            }
+            @keyframes fadeIn {
+                to { opacity: 1; }
+            }
+            @keyframes fadeInOut {
+                0%, 100% { opacity: 0.5; }
+                50% { opacity: 1; }
+            }
+            @keyframes bounce {
+                0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+                40% { transform: translateY(-8px); }
+                60% { transform: translateY(-4px); }
+            }
+        </style>
+
+        <!-- Services Header Section -->
+        <div class="container text-center my-5 py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="fw-bold mb-3" style="color: #00e0ff; font-size: 2.5rem; letter-spacing: -0.5px; text-transform: uppercase;">Our Services</h2>
+                    <p class="lead mb-0" style="color: rgba(255, 255, 255, 0.8); font-size: 1.25rem; line-height: 1.6;">
+                        Ensure You Receive High-Quality Services
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Services Grid Section -->
+        <div class="container mb-5" style="background-color: #000000; background: linear-gradient(to right, rgba(36, 36, 36, 0), rgb(0, 7, 26)); padding: 2rem 0; border-radius: 8px;">
+            <div class="row g-4">
+                <!-- Product Design -->
+                <div class="col-md-6">
+                    <div class="service-card h-100">
+                        <div class="wp-block-group has-border-color has-border-color-border-color is-layout-constrained" style="border-width:1px;border-radius:24px;height:100%;padding:40px;">
+                            <figure class="wp-block-image size-full is-resized">
+                                <img src="https://dev-ticno-vex111.pantheonsite.io/wp-content/themes/saaslauncher/assets/images/service_icon_1.png" alt="Product Design" style="width:71px;height:auto;object-fit:cover;">
+                            </figure>
+                            <h4 class="wp-block-heading has-big-font-size" style="margin-top:32px;color:white;">Product Design</h4>
+                            <p style="color:rgba(255,255,255,0.7);">
+                                Product design is the process of creating functional and aesthetically pleasing products that meet user needs and business goals through research, ideation, and testing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Digital Marketing -->
+                <div class="col-md-6">
+                    <div class="service-card h-100">
+                        <div class="wp-block-group has-border-color has-border-color-border-color is-layout-constrained" style="border-width:1px;border-radius:24px;height:100%;padding:40px;">
+                            <figure class="wp-block-image size-full is-resized">
+                                <img src="https://dev-ticno-vex111.pantheonsite.io/wp-content/themes/saaslauncher/assets/images/service_icon_3.png" alt="Digital Marketing" style="width:71px;height:auto;object-fit:cover;">
+                            </figure>
+                            <h4 class="wp-block-heading has-big-font-size" style="margin-top:32px;color:white;">Digital Marketing</h4>
+                            <p style="color:rgba(255,255,255,0.7);">
+                                Digital marketing is the promotion of products or services using online channels like social media, search engines, and email to reach and engage target audiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- UI/UX Design -->
+                <div class="col-md-6">
+                    <div class="service-card h-100">
+                        <div class="wp-block-group has-border-color has-border-color-border-color is-layout-constrained" style="border-width:1px;border-radius:24px;height:100%;padding:40px;">
+                            <figure class="wp-block-image size-full is-resized">
+                                <img src="https://dev-ticno-vex111.pantheonsite.io/wp-content/themes/saaslauncher/assets/images/service_icon_2.png" alt="UI/UX Design" style="width:71px;height:auto;object-fit:cover;">
+                            </figure>
+                            <h4 class="wp-block-heading has-big-font-size" style="margin-top:32px;color:white;">UI/UX Design</h4>
+                            <p style="color:rgba(255,255,255,0.7);">
+                                UI/UX design focuses on creating intuitive and engaging user interfaces and experiences that ensure user satisfaction and enhance the usability of digital products.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Web Applications -->
+                <div class="col-md-6">
+                    <div class="service-card h-100">
+                        <div class="wp-block-group has-border-color has-border-color-border-color is-layout-constrained" style="border-width:1px;border-radius:24px;height:100%;padding:40px;">
+                            <figure class="wp-block-image size-full is-resized">
+                                <img src="https://dev-ticno-vex111.pantheonsite.io/wp-content/themes/saaslauncher/assets/images/service_icon_4.png" alt="Web Applications" style="width:71px;height:auto;object-fit:cover;">
+                            </figure>
+                            <h4 class="wp-block-heading has-big-font-size" style="margin-top:32px;color:white;">Web Applications</h4>
+                            <p style="color:rgba(255,255,255,0.7);">
+                                Web applications are interactive programs that run on web browsers, providing dynamic functionality and services to users through an intuitive interface.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <style>
+            .service-card {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                height: 100%;
+            }
+            .service-card:hover {
+                transform: translateY(-5px);
+            }
+            .service-card .wp-block-group {
+                background: rgba(255, 255, 255, 0.05);
+                backdrop-filter: blur(10px);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 40px !important;
+            }
+            .service-card .wp-block-image {
+                margin-bottom: 25px;
+            }
+            .service-card .wp-block-heading {
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin: 20px 0 15px 0 !important;
+                line-height: 1.3;
+                color: #fff !important;
+            }
+            .service-card p {
+                font-size: 1rem;
+                line-height: 1.6;
+                margin-bottom: 0;
+                color: rgba(255, 255, 255, 0.7) !important;
+                font-weight: 300;
+            }
+            .service-card:hover .wp-block-group {
+                background: rgba(255, 255, 255, 0.1);
+                border-color: rgba(255, 255, 255, 0.2);
+            }
+            @media (max-width: 768px) {
+                .service-card .wp-block-heading {
+                    font-size: 1.3rem;
+                }
+                .service-card p {
+                    font-size: 0.95rem;
+                }
+            }
+        </style>
+
+        <!-- Brands Section -->
+        <div class="container py-5 my-4 brands-section" style="background-color: #000000; background: linear-gradient(to right, rgba(36, 36, 36, 0), rgb(0, 7, 26)); border-radius: 8px; padding: 2rem 0;">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-3" style="color: #00e0ff; font-size: 2.5rem; letter-spacing: -0.5px; text-transform: uppercase;">Brands I've Collaborated With</h2>
+                <p class="mb-0" style="color: #ffffff; font-size: 0.9rem; letter-spacing: 0.5px; opacity: 0.8;">Trusted by leading companies worldwide</p>
+            </div>
+            <div class="row align-items-center justify-content-center g-4 g-lg-5">
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="brand-logo">
+                        <img src="Git.png" alt="Git" class="img-fluid" style="max-width: 80px; opacity: 0.9;">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="brand-logo">
+                        <img src="cyber-security.png" alt="Cyber Security" class="img-fluid" style="max-width: 80px; opacity: 0.9;">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="brand-logo">
+                        <img src="github.png" alt="GitHub" class="img-fluid" style="max-width: 80px; opacity: 0.9;">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="brand-logo">
+                        <img src="google.png" alt="Google" class="img-fluid" style="max-width: 80px; opacity: 0.9;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <style>
+            .brands-section {
+                padding: 40px 0 60px;
+                background-color: #0a0a0a;
+                position: relative;
+                overflow: hidden;
+            }
+            .brands-section::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            }
+            .brands-section h2 {
+                color: #00e0ff;
+                font-size: 2rem;
+                font-weight: 700;
+                margin-bottom: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: -0.5px;
+                position: relative;
+                display: inline-block;
+            }
+            .brands-section h2::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -8px;
+                width: 100%;
+                height: 2px;
+                background: linear-gradient(90deg, transparent, #00e0ff, transparent);
+            }
+            .brands-section p {
+                color: rgba(255, 255, 255, 0.8);
+                font-size: 1rem;
+                margin-bottom: 2rem;
+                max-width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                opacity: 0.8;
+            }
+            .brand-logo {
+                padding: 15px;
+                text-align: center;
+                transition: all 0.3s ease;
+                background: rgba(255, 255, 255, 0.02);
+                border-radius: 8px;
+                border: 1px solid rgba(255, 255, 255, 0.05);
+                height: 120px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 5px;
+            }
+            .brand-logo:hover {
+                transform: translateY(-3px);
+                background: rgba(255, 255, 255, 0.05);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+                border-color: rgba(0, 224, 255, 0.2);
+            }
+            .brand-logo img {
+                max-width: 100px;
+                max-height: 50px;
+                width: auto;
+                height: auto;
+                object-fit: contain;
+                transition: all 0.3s ease;
+                opacity: 0.9;
+            }
+            .brand-logo:hover img {
+                opacity: 1;
+                transform: scale(1.05);
+            }
+            @media (max-width: 991.98px) {
+                .brands-section h2 {
+                    font-size: 1.5rem;
+                }
+                .brands-section p {
+                    font-size: 0.85rem;
+                }
+                .brand-logo {
+                    padding: 1.25rem;
+                    min-height: 90px;
+                }
+            }
+            @media (max-width: 767.98px) {
+                .brands-section h2 {
+                    font-size: 1.75rem;
+                }
+                .brand-logo {
+                    padding: 1rem;
+                    min-height: 80px;
+                }
+                .brand-logo img {
+                    max-height: 28px;
+                }
+            }
+            @media (max-width: 575.98px) {
+                .brands-section h2 {
+                    font-size: 1.5rem;
+                }
+                .brand-logo {
+                    padding: 0.75rem;
+                    min-height: 70px;
+                }
+                .brand-logo img {
+                    max-height: 24px;
+                }
+            }
+        </style>
+
+        <!-- FAQ Section -->
+        <section class="faq-section" style="background-color: #000000; background: linear-gradient(to right, rgba(36, 36, 36, 0), rgb(0, 7, 26)); color: #ffffff; padding: 7rem 2rem;">
+          <div class="container">
+            <div class="text-center mb-5">
+              <h2 class="fw-bold mb-3" style="color: #00e0ff; font-size: 2.5rem; letter-spacing: -0.5px; text-transform: uppercase;">FAQ</h2>
+            </div>
+            
+            <div class="faq-container" style="max-width: 900px; margin: 0 auto;">
+              <details class="faq-item" style="border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; margin-bottom: 1rem; overflow: hidden;">
+                <summary style="background-color: rgba(255, 255, 255, 0.05); padding: 1.5rem; font-weight: 600; font-size: 1.1rem; cursor: pointer; outline: none;">
+                  <strong>Identify Assets</strong>
+                </summary>
+                <div style="padding: 1.5rem; background-color: rgba(0, 0, 0, 0.2);">
+                  <p style="margin: 0; font-weight: 400; line-height: 1.6;">Start by identifying all the technical assets within the organization, including hardware, software, and licenses</p>
+                </div>
+              </details>
+
+              <details class="faq-item" style="border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; margin-bottom: 1rem; overflow: hidden;">
+                <summary style="background-color: rgba(255, 255, 255, 0.05); padding: 1.5rem; font-weight: 600; font-size: 1.1rem; cursor: pointer; outline: none;">
+                  <strong>Monitor Performance</strong>
+                </summary>
+                <div style="padding: 1.5rem; background-color: rgba(0, 0, 0, 0.2);">
+                  <p style="margin: 0; font-weight: 400; line-height: 1.6;">Regularly monitor the performance of assets to determine when upgrades or replacements are necessary</p>
+                </div>
+              </details>
+
+              <details class="faq-item" style="border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; margin-bottom: 1rem; overflow: hidden;">
+                <summary style="background-color: rgba(255, 255, 255, 0.05); padding: 1.5rem; font-weight: 600; font-size: 1.1rem; cursor: pointer; outline: none;">
+                  <strong>Conduct Regular Audits</strong>
+                </summary>
+                <div style="padding: 1.5rem; background-color: rgba(0, 0, 0, 0.2);">
+                  <p style="margin: 0; font-weight: 400; line-height: 1.6;">Perform periodic audits to ensure the accuracy of asset records and identify any discrepancies</p>
+                </div>
+              </details>
+
+              <details class="faq-item" style="border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; margin-bottom: 1rem; overflow: hidden;">
+                <summary style="background-color: rgba(255, 255, 255, 0.05); padding: 1.5rem; font-weight: 600; font-size: 1.1rem; cursor: pointer; outline: none;">
+                  <strong>Risk Management</strong>
+                </summary>
+                <div style="padding: 1.5rem; background-color: rgba(0, 0, 0, 0.2);">
+                  <p style="margin: 0; font-weight: 400; line-height: 1.6;">Develop strategies to manage risks associated with assets, such as security breaches and data loss</p>
+                </div>
+              </details>
+
+              <details class="faq-item" style="border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; margin-bottom: 1rem; overflow: hidden;">
+                <summary style="background-color: rgba(255, 255, 255, 0.05); padding: 1.5rem; font-weight: 600; font-size: 1.1rem; cursor: pointer; outline: none;">
+                  <strong>Negotiate with Vendors</strong>
+                </summary>
+                <div style="padding: 1.5rem; background-color: rgba(0, 0, 0, 0.2);">
+                  <p style="margin: 0; font-weight: 400; line-height: 1.6;">Maintain good relationships with vendors to ensure the best prices and support</p>
+                </div>
+              </details>
+
+              <details class="faq-item" style="border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; margin-bottom: 1rem; overflow: hidden;">
+                <summary style="background-color: rgba(255, 255, 255, 0.05); padding: 1.5rem; font-weight: 600; font-size: 1.1rem; cursor: pointer; outline: none;">
+                  <strong>Update Policies</strong>
+                </summary>
+                <div style="padding: 1.5rem; background-color: rgba(0, 0, 0, 0.2);">
+                  <p style="margin: 0; font-weight: 400; line-height: 1.6;">Regularly update security and compliance policies to meet legal requirements</p>
+                </div>
+              </details>
+
+              <details class="faq-item" style="border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; margin-bottom: 1rem; overflow: hidden;">
+                <summary style="background-color: rgba(255, 255, 255, 0.05); padding: 1.5rem; font-weight: 600; font-size: 1.1rem; cursor: pointer; outline: none;">
+                  <strong>Provide Technical Support</strong>
+                </summary>
+                <div style="padding: 1.5rem; background-color: rgba(0, 0, 0, 0.2);">
+                  <p style="margin: 0; font-weight: 400; line-height: 1.6;">Have a trained technical support team to resolve technical issues quickly and efficiently</p>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section>
+        
+        <section class="hero">
+  
+      
+        
+          <!-- النص اللي عليه تأثيرات SplitText -->
+          <h1 id="title">Coming Soon ❤️‍🔥</h1>
+          </p>
+        
+          <a href="index.html">
+          <div class="start-btn" id="start">
+          <p class="start-text">Back Home</p>
+            <lord-icon class="arrow commingArrow" id=""
+              src="https://cdn.lordicon.com/rmkahxvq.json"
+              colors="primary:#ffffff"
+              trigger="loop"
+              style="width:100px;height:100px;">
+            </lord-icon>
+          </div>
+        </a>
+        </section>
+        
+        <div class="mb-5 text-center">
+
+        </div>
+    
+    <footer class="text-white text-center py-4">
+        <div class="container">
+            <div class="mt-5">
+                <a href="https://www.facebook.com/share/1FC4LDtDv9/?mibextid=wwXIfr" class="text-white me-3" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://t.me/ahmedabdellah_310" class="text-white me-3" target="_blank"><i class="fab fa-telegram fa-2x"></i></a>
+                <a href="https://wa.me/201126485957" class="text-white" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+            </div>
+            <div class="mt-2">
+
+                <p class="mb-0">All rights reserved to Ahmed Abdellah © 2025</p>
+            </div>
+        </div>
+    </footer>
+    
+
+  
+  </main>
+</div>
+  
+   <!-- jQuery -->
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+   <!-- GSAP Core -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+   
+   <!-- GSAP Plugins -->
+   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+   
+   <!-- SplitText Plugin (لازم يتحط بعد GSAP) -->
+   
+   <!-- butter.js للـ Smooth Scrolling -->
+   <script src="butter.js"></script>
+   <script>
+     butter.init({ cancelOnTouch: true });
+   </script>
+   
+   <!-- Lordicon Animation Library -->
+   <script src="https://cdn.lordicon.com/lordicon.js"></script>
+   <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+   <script>Fancybox.bind("[data-fancybox='gallery']", {});</script>
+   <!-- Barba.js للصفحات الانتقالية -->
+   <script src="https://unpkg.com/@barba/core@2.10.3/dist/barba.umd.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/SplitText.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+   <script src="contact.js"></script>
+   <script src="script.js"></script>
+
+
+</body>
+
+
+</html>
